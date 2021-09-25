@@ -1,7 +1,8 @@
 @charset "UTF-8";
 .container {
   padding: 15px;
-  width: 100%;
+  width: 1090px;
+  margin: 0auto;
 }
 
 @media screen and (max-width: 1090px) {
@@ -338,6 +339,145 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.header {
+  background-image: url("../img/png/Rectangle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 0px 38px;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 224px;
+}
+
+.technologies__svg {
+  margin-right: 25px;
+}
+.technologies__text {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #00FEFF;
+  border: 1px solid #00FEFF;
+  padding: 6px 7px;
+  border-radius: 50%;
+}
+
+.foundation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 190px;
+}
+.foundation__list:nth-child(2) {
+  margin: 0px 39px;
+}
+.foundation__link {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+
+.contact__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-bottom: 3px;
+}
+.contact__text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+.contact__link {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #FFFFFF;
+  margin-left: 12px;
+}
+
+.outsourcing__heading {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 1.1;
+  color: #00FEFF;
+  margin-bottom: 57px;
+}
+
+.service__text {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1.1;
+  color: #00FEFF;
+}
+.service .price {
+  margin: 14px 0px 37px;
+}
+.service .price__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #FFFFFF;
+}
+.service .price__widht {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #FFFFFF;
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #002047;
+  padding: 14px 22px;
+  background-color: #00FEFF;
+  border: 1px solid #00FEFF;
+}
+.btn__svg {
+  width: 19px;
+  height: 13px;
+  fill: red;
+}
+
+.offer {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #FFFFFF;
+  margin: -40px 0px 0px 685px;
+  padding-bottom: 40px;
 }
 
 @media screen and (max-width: 1090px) {
