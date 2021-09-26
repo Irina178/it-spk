@@ -1,20 +1,20 @@
 @charset "UTF-8";
 .container {
-  padding: 15px;
-  width: 1090px;
-  margin: 0auto;
+  padding: 0px 15px;
+  width: 375px;
+  margin: 0 auto;
+  border: 1px solid red;
 }
 
-@media screen and (max-width: 1090px) {
+@media screen and (min-width: 375px) {
   .container {
-    max-width: 375px;
+    min-width: 375px;
     margin: 0 auto;
   }
 }
 @media screen and (min-width: 1090px) {
   .container {
-    max-width: 1090px;
-    padding: 30px;
+    min-width: 1090px;
     margin: 0 auto;
   }
 }
@@ -341,225 +341,225 @@ img {
   height: auto;
 }
 
-.header {
-  background-image: url("../img/png/Rectangle.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0px 0px 38px;
-}
-
-.logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 224px;
-}
-
-.technologies__svg {
-  margin-right: 25px;
-}
-.technologies__text {
-  font-size: 11px;
-  font-weight: 700;
-  line-height: 1.2;
-  color: #00FEFF;
-  border: 1px solid #00FEFF;
-  padding: 6px 7px;
-  border-radius: 50%;
-}
-
-.foundation {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 190px;
-}
-.foundation__list:nth-child(2) {
-  margin: 0px 39px;
-}
-.foundation__link {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.2;
-  color: #FFFFFF;
-}
-
-.contact__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  padding-bottom: 3px;
-}
-.contact__text {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.2;
-  color: #FFFFFF;
-}
-.contact__link {
-  font-size: 17px;
-  font-weight: 700;
-  line-height: 1.2;
-  color: #FFFFFF;
-  margin-left: 12px;
-}
-
-.outsourcing__heading {
-  font-size: 50px;
-  font-weight: 900;
-  line-height: 1.1;
-  color: #00FEFF;
-  margin-bottom: 57px;
-}
-
-.service__text {
-  font-size: 18px;
-  font-weight: 900;
-  line-height: 1.1;
-  color: #00FEFF;
-}
-.service .price {
-  margin: 14px 0px 37px;
-}
-.service .price__text {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.1;
-  color: #FFFFFF;
-}
-.service .price__widht {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 1.1;
-  color: #FFFFFF;
-}
-
-.btn {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.2;
-  color: #002047;
-  padding: 14px 22px;
-  background-color: #00FEFF;
-  border: 1px solid #00FEFF;
-}
-.btn__svg {
-  width: 19px;
-  height: 13px;
-  fill: red;
-}
-
-.offer {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.4;
-  color: #FFFFFF;
-  margin: -40px 0px 0px 685px;
-  padding-bottom: 40px;
-}
-
-@media screen and (max-width: 1090px) {
-  .services {
-    background-color: #e5e5e5;
+@media screen and (min-width: 375px) {
+  .header {
+    background-image: url(../img/png/Rectangle-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
   }
 
-  .heading {
-    font-size: 36px;
-    line-height: 1.2;
-    font-weight: 700;
-    color: #001e42;
-    margin-bottom: 55px;
+  .nav {
+    padding-top: 38px;
   }
 
-  .technologies__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .logo {
+    margin-bottom: 86px;
   }
-  .technologies__svg {
-    margin-bottom: 38px;
-    width: 76px;
-    height: 70px;
-    padding: 0px;
+  .logo__svg {
+    width: 144px;
+    height: 48px;
   }
-  .technologies__link {
-    margin-left: 23px;
+  .logo__text {
+    display: none;
+  }
+
+  .foundation {
+    display: none;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .outsourcing__heading {
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 900;
+    color: #00FEFF;
+    margin-bottom: 46px;
+  }
+
+  .service__text {
     font-size: 18px;
+    line-height: 1.1;
+    font-weight: 400;
+    color: #00FEFF;
+    margin-bottom: 7px;
+  }
+
+  .price {
+    margin-bottom: 35px;
+  }
+  .price__text {
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 400;
+    color: #FFFFFF;
+  }
+  .price__widht {
+    font-size: 24px;
+    line-height: 1.3;
+    font-weight: 700;
+    color: #FFFFFF;
+  }
+
+  .btn {
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.2;
-    color: #001e42;
-    width: 166px;
-    height: 44px;
+    color: #002047;
+    padding: 14px 45px;
+    background-color: #00FEFF;
+    border: 1px solid #00FEFF;
+    margin-bottom: 37px;
   }
-  .technologies__link:nth-child(2) {
-    width: 231px;
-    height: 76px;
+
+  .offer {
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-bottom: 36px;
   }
 }
 @media screen and (min-width: 1090px) {
-  .services {
-    background-color: #e5e5e5;
+  .header {
+    background-image: url(../img/png/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
-  .heading {
-    font-size: 53px;
-    line-height: 1;
-    font-weight: 700;
-    color: #001e42;
-    margin-bottom: 55px;
-    letter-spacing: 3px;
-  }
-
-  .technologies {
+  .nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin-left: -10px;
-    margin-top: -10px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
-  .technologies__list {
-    padding: 6px 5px 5px 10px;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    -ms-flex-preferred-size: calc((100% - 30px) / 3);
-        flex-basis: calc((100% - 30px) / 3);
+
+  .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .technologies__svg {
-    width: 76px;
-    height: 70px;
-    padding: 0px;
+  .logo__svg {
+    margin-right: 25px;
   }
-  .technologies__link {
-    margin: -59px 65px 41px 102px;
+  .logo__text {
+    display: block;
+    color: #00FEFF;
+    border: 1px solid #00FEFF;
+    padding: 8px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .foundation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0px 170px 0px 224px;
+  }
+  .foundation__list:nth-child(2) {
+    margin: 0px 38px;
+  }
+  .foundation__link {
     font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #FFFFFF;
+  }
+
+  .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .contact__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact__text {
+    margin-right: 13px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #FFFFFF;
+  }
+  .contact__link {
+    font-size: 17px;
     font-weight: 700;
     line-height: 1.2;
-    color: #001e42;
+    color: #FFFFFF;
+  }
+
+  .outsourcing__heading {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #00FEFF;
+    margin-bottom: 56px;
+  }
+
+  .service__text {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #00FEFF;
+    margin-bottom: 7px;
+  }
+
+  .price {
+    margin-bottom: 28px;
+  }
+  .price__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #FFFFFF;
+  }
+  .price__widht {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #FFFFFF;
+  }
+
+  .btn {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #002047;
+    padding: 14px 45px;
+    background-color: #00FEFF;
+    border: 1px solid #00FEFF;
+    margin-bottom: 70px;
+  }
+
+  .offer {
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: -125px;
+    margin-left: 710px;
+    padding-bottom: 70px;
   }
 }
 @media screen and (max-width: 1090px) {

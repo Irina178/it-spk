@@ -1,19 +1,20 @@
 .container {
-  padding: 15px;
-  width: 1090px;
-  margin: 0auto;
+  padding: 0px 15px;
+  width: 375px;
+  margin: 0 auto;
+  border: 1px solid red;
 }
-@media screen and (max-width: 1090px) {
+@media screen and (min-width: 375px) {
   .container {
-    max-width: 375px;
+    min-width: 375px;
     margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 1090px) {
   .container {
-    max-width: 1090px;
-    padding: 30px;
+    min-width: 1090px;
+    // padding: 0px 15px;
     margin: 0 auto;
   }
 }
