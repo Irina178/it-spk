@@ -1,70 +1,80 @@
-@media screen and (min-width: 375px){
-.connection {
-   background-color: $bc;
+@media screen and (min-width: 375px) {
+  .connection {
+    background-color: $bc;
+  }
+
+  .exploitation {
+    &__heading {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.2;
+      color: $dark;
+    }
+  }
+  .stages {
+    &__list {
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+
+    &__number {
+      font-size: 96px;
+      font-weight: 700;
+      line-height: 1.2;
+      color: $light;
+      padding: 0px;
+    }
+
+    .process {
+      position: absolute;
+      left: 29px;
+      bottom: 20px;
+      &__text {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.2;
+        color: $dark;
+      }
+    }
+  }
 }
- 
-.exploitation {
+@media screen and (min-width: 1090px) {
+  .connection {
+    background-color: $bc;
+  }
 
-		&__heading {
-         font-size: 24px;
-         font-weight: 700;
-         line-height: 1.2;
-         color: $dark;
-		}
-}
-.stages {
+  .exploitation {
+    &__heading {
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1.2;
+      color: $dark;
+      padding-bottom: 31px;
+    }
+  }
+  .stages {
+    display: flex;
 
-		&__list {
-		}
+    &__list:nth-child(2) {
+      margin: 0px 315px;
+    }
 
-		&__number {
-         font-size: 96px;
-         font-weight: 700;
-         line-height: 1.2;
-         color:  $light;
-		}
+    &__number {
+      font-size: 96px;
+      font-weight: 700;
+      line-height: 1.2;
+      color: $light;
+    }
 
-		&__text {
-         font-size: 18px;
-         font-weight: 700;
-         line-height: 1.2;
-         color:   $dark;
-		}
-}
-
-}
-@media screen and (min-width: 1090px){
-.connection {
-   background-color: $bc;
-}
- 
-.exploitation {
-
-		&__heading {
-         font-size: 22px;
-         font-weight: 700;
-         line-height: 1.2;
-         color: $dark;
-         padding-bottom: 31px;
-		}
-}
-.stages {
-
-		&__list {
-		}
-
-		&__number {
-         font-size: 96px;
-         font-weight: 700;
-         line-height: 1.2;
-         color:  $light;
-		}
-
-		&__text {
-         font-size: 18px;
-         font-weight: 700;
-         line-height: 1.2;
-         color: $dark;
-		}
-}
+    .process {
+      &__text {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.2;
+        color: $dark;
+        width: 298px;
+      }
+    }
+  }
 }
