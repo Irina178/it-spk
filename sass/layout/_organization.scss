@@ -1,0 +1,77 @@
+@media screen and (min-width: 375px) {
+  .organization {
+    background-color: $bc;
+  }
+
+  .infrastructures {
+    &__heading {
+      color: $txt-light;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.2;
+      padding: 0px 0px 13px;
+    }
+  }
+  .description {
+   padding-bottom: 56px;
+  }
+  .experience {
+    &__list {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.2;
+      color: $txt-light;
+      margin-bottom: 20px;
+    }
+
+    
+  }
+  .complex {
+   width: 345px;
+   
+    &__list {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: $txt-light;
+    }
+  }
+}
+
+@media screen and (min-width: 1090px) {
+  .infrastructures {
+    &__heading {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.2;
+      padding: 0px 0px 27px;
+    }
+  }
+  .description {
+      display: flex;
+      padding-bottom: 16px;
+       
+    
+  }
+  .experience {
+   width: 530px;
+    &__list {
+       font-size: 13px;
+      font-weight: 400;
+      margin-bottom: 25px;
+    }
+
+     
+  }
+  .complex {
+   width: 530px;
+   height: 359px;
+   margin-left: 30px;
+    &__list {
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 1.5;
+     
+    }
+  }
+}
