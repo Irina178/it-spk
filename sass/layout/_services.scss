@@ -1,0 +1,28 @@
+@media screen and (min-width: 375px){
+   .services {
+      background-color: $bc;
+   }
+   // .container {
+   // }
+   .heading {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 1.2;
+      color:  $dark;
+   }
+   .technologies {
+   
+         &__list {
+         }
+   
+         &__svg {
+         }
+   
+         &__link {
+         }
+   }
+   
+}
+@media screen and (min-width: 1090px){
+
+}
