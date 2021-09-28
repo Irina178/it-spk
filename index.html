@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IT-SPK</title>
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+<link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
@@ -409,46 +414,77 @@
     <footer>
       <section class="footer">
         <div class="container">
-          <div>
-            <h2>
+          <div class="feedback">
+            <div class="inquiry">
+            <h2 class="inquiry__heading">
               Оставьте заявку на обслуживание компьютеров и мы свяжемся с вами
-            </h2>
-            <button class="btn">
-              Отправить
-            </button>
+            </h2></div>
+            <form class="form">
+              <label>
+                <input class="form__text" type="text" placeholder="Имя" />
+              </label>
+              <label>
+                <input
+                  class="form__text"
+                  type="tel"
+                  placeholder="Номер телефона*"
+                />
+              </label>
+              <label>
+                <input class="form__text" type="email" placeholder="E-mail" />
+              </label>
+              <label>
+                <input class="form__mess" type="text" placeholder="Сообщение" />
+              </label>
+              <label class="form__checkbox">
+                <input
+                  
+                  type="checkbox"
+                  value="Даю согласие на обработку персональных данных"
+                />
+                Даю согласие на обработку персональных данных
+              </label>
+              <button class="button">
+                Отправить
+              </button>
+            </form>
           </div>
         </div>
+      </section>
+      <section class="adres">
+        <div class="container">
+          <div class="location">
+            <ul class="operator">
+              <li class="operator__list">
+                <a class="operator__mail" href="info@it-spk.com">
+                  info@it-spk.com
+                </a>
+              </li>
+              <li class="operator__list">
+                <a class="operator__link" href="tel:+380 93 541 20 92">
+                  +380 93 541 20 92
+                </a>
+                <p class="operator__text">lifecell</p>
+              </li>
+              <li class="operator__list">
+                <a class="operator__link" href="tel:+380 99 311 29 79">
+                  +380 99 311 29 79
+                </a>
+                <p class="operator__text">Vodafone</p>
+              </li>
+            </ul>
 
-        <section class="adres">
-          <div class="container">
-            <div class="location">
-              <ul class="operator">
-                <li class="operator__list">
-                  <a class="operator__mail" href="info@it-spk.com">
-                    info@it-spk.com
-                  </a> </li>
-                  <li class="operator__list">
-                  <a class="operator__link" href="tel:+380 93 541 20 92">
-                    +380 93 541 20 92
-                  </a>
-                  <p class="operator__text">lifecell</p>
-                </li>
-                <li class="operator__list">
-                  <a class="operator__link" href="tel:+380 99 311 29 79">
-                    +380 99 311 29 79
-                  </a>
-                  <p class="operator__text">Vodafone</p>
-                </li>
-              </ul>
-              <div class="slogan">
-                <p class="slogan__heading">
-                  Обслуживание компьютеров и монтаж сетей в Киеве
-                </p>
-                <p class="slogan__text">IT-SPK © 2021</p>
-              </div>
+            <div class="slogann">
+              <p class="slogann__heading">
+                Обслуживание компьютеров и
+                <br />
+                монтаж сетей в Киеве
+              </p>
+              <p class="slogann__text">IT-SPK © 2021</p>
             </div>
           </div>
-        </section>
+        </div>
+       
       </section>
     </footer>
   </body>
