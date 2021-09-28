@@ -1,0 +1,56 @@
+@media screen and (min-width: 375px) {
+  .office {
+    background-color: $bc;
+  }
+
+  .title {
+    &__text {
+      font-size: 22px;
+      line-height: 1.2;
+      font-weight: 700;
+      color: $dark;
+      padding: 30px 0px 38px;
+    }
+  }
+  .advertising {
+    &__list {
+      padding: 0px 0px 32px 0px;
+    }
+
+    &__text {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.3;
+      color: $text;
+    }
+  }
+}
+
+@media screen and (min-width: 1090px) {
+  .office {
+    background-color: $bc;
+  }
+
+  .title {
+    &__text {
+      font-size: 24px;
+      line-height: 1.2;
+      font-weight: 700;
+      color: $dark;
+      padding: 70px 0px 30px;
+    }
+  }
+  .advertising {
+    display: flex;
+    justify-content: space-between;
+    // &__list {
+    // }
+
+    &__text {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.3;
+      color: $text;
+    }
+  }
+}

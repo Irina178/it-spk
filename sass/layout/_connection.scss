@@ -1,0 +1,70 @@
+@media screen and (min-width: 375px){
+.connection {
+   background-color: $bc;
+}
+ 
+.exploitation {
+
+		&__heading {
+         font-size: 24px;
+         font-weight: 700;
+         line-height: 1.2;
+         color: $dark;
+		}
+}
+.stages {
+
+		&__list {
+		}
+
+		&__number {
+         font-size: 96px;
+         font-weight: 700;
+         line-height: 1.2;
+         color:  $light;
+		}
+
+		&__text {
+         font-size: 18px;
+         font-weight: 700;
+         line-height: 1.2;
+         color:   $dark;
+		}
+}
+
+}
+@media screen and (min-width: 1090px){
+.connection {
+   background-color: $bc;
+}
+ 
+.exploitation {
+
+		&__heading {
+         font-size: 22px;
+         font-weight: 700;
+         line-height: 1.2;
+         color: $dark;
+         padding-bottom: 31px;
+		}
+}
+.stages {
+
+		&__list {
+		}
+
+		&__number {
+         font-size: 96px;
+         font-weight: 700;
+         line-height: 1.2;
+         color:  $light;
+		}
+
+		&__text {
+         font-size: 18px;
+         font-weight: 700;
+         line-height: 1.2;
+         color: $dark;
+		}
+}
+}
